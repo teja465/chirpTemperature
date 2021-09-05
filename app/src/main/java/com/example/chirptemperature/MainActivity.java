@@ -37,8 +37,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
              String userInput = etNumber.getText().toString().trim();
-             Log.d("UserInput",userInput);
-             Log.d("UserInput.length",String.valueOf(userInput.length()));
+             
              if (userInput.length()==0){
                  tvResults.setText("Please give an input greater than 0");
                  return;
