@@ -15,7 +15,9 @@
         android:layout_marginTop="50dp"
         android:layout_marginRight="10dp"
         android:gravity="center"
-        android:text="THE CRICKET AS A THERMOMETER" />
+        android:text="THE CRICKET AS A THERMOMETER"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
 
     <ImageView
         android:id="@+id/imageView6"
